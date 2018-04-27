@@ -10,6 +10,7 @@ points = PoolVector2Array( 0, -10, 8.66025, 5, -8.66025, 5 )
 
 [node name="Player" type="KinematicBody2D" index="0"]
 
+position = Vector2( 65.3835, 112.395 )
 rotation = 1.5708
 input_pickable = false
 collision_layer = 1
@@ -20,17 +21,18 @@ _sections_unfolded = [ "Transform", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
 }
+moveSpeed = 10
 
-[node name="Player Apperance" type="Sprite" parent="." index="0"]
-
-scale = Vector2( 0.5, 0.5 )
-texture = ExtResource( 2 )
-_sections_unfolded = [ "Transform" ]
-
-[node name="PlayerHitBox" type="CollisionShape2D" parent="." index="1"]
+[node name="PlayerHitBox" type="CollisionShape2D" parent="." index="0"]
 
 position = Vector2( 0.249999, 4.71429 )
 scale = Vector2( 2.1226, 1.78571 )
 shape = SubResource( 1 )
+
+[node name="Player Apperance" type="Sprite" parent="." index="1"]
+
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
 
 
