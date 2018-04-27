@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+[ext_resource path="res://KennyAssets/PNG/playerShip1_blue.png" type="Texture" id=2]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 0, -10, 8.66025, 5, -8.66025, 5 )
+
+[node name="Player" type="KinematicBody2D" index="0"]
+
+rotation = 1.5708
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Player Apperance" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="PlayerHitBox" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( 0.249999, 4.71429 )
+scale = Vector2( 2.1226, 1.78571 )
+shape = SubResource( 1 )
+
+

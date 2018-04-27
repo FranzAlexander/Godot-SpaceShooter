@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_shieldUp.ogg-825866306d5ba681e62c660e10ca0e29.oggstr"
+
+[deps]
+
+source_file="res://KennyAssets/Bonus/sfx_shieldUp.ogg"
+source_md5="bf74bd3731d3ca4b88e74847ca14fd9a"
+
+dest_files=[ "res://.import/sfx_shieldUp.ogg-825866306d5ba681e62c660e10ca0e29.oggstr" ]
+dest_md5="72fcbe768274b1876936a0b91410f44d"
+
+[params]
+
+loop=true
+loop_offset=0

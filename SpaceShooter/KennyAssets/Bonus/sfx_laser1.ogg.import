@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_laser1.ogg-c246205c27d67327296a7bf6d825d599.oggstr"
+
+[deps]
+
+source_file="res://KennyAssets/Bonus/sfx_laser1.ogg"
+source_md5="358307a1211ed4ade56ecdb3b980384d"
+
+dest_files=[ "res://.import/sfx_laser1.ogg-c246205c27d67327296a7bf6d825d599.oggstr" ]
+dest_md5="9ad3fafd3797f72ca2454eb2c954b0ff"
+
+[params]
+
+loop=true
+loop_offset=0

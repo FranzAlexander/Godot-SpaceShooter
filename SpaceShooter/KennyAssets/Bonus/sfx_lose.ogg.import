@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_lose.ogg-07ab6616d722ff29eaf9e49ae1efdf5a.oggstr"
+
+[deps]
+
+source_file="res://KennyAssets/Bonus/sfx_lose.ogg"
+source_md5="a8ac60454f8661eb41887323ce87716a"
+
+dest_files=[ "res://.import/sfx_lose.ogg-07ab6616d722ff29eaf9e49ae1efdf5a.oggstr" ]
+dest_md5="e90679a407d5382a41d7f77edadce6fe"
+
+[params]
+
+loop=true
+loop_offset=0

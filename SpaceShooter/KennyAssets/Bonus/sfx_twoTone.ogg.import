@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_twoTone.ogg-a6d4b4716e84b9a09e50cb72749554c1.oggstr"
+
+[deps]
+
+source_file="res://KennyAssets/Bonus/sfx_twoTone.ogg"
+source_md5="776125c9c12cec402e208d5721c46a3d"
+
+dest_files=[ "res://.import/sfx_twoTone.ogg-a6d4b4716e84b9a09e50cb72749554c1.oggstr" ]
+dest_md5="fdae8646682b45e93c0d86e32cfb3d8e"
+
+[params]
+
+loop=true
+loop_offset=0
